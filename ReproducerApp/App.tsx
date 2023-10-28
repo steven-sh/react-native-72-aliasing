@@ -16,12 +16,13 @@ function App(): JSX.Element {
 
 
   return (
-    <SafeAreaView style={backgroundStyle}>
+    <SafeAreaView style={{flex: 1}}>
       <ScrollView
         style={{backgroundColor: 'white'}}>
         <View
           style={{
             backgroundColor: 'black',
+            margin: 25,
             width: 100, 
             height: 100, 
             borderRadius: 100
